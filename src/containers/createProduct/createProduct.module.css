@@ -1,0 +1,34 @@
+.form_holder {
+    width: 50vw;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 6px;
+    /* text-align: center; */
+    background-color: #DED9C4;
+}
+
+.form_holder h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.form_holder button {
+    width: 20%;
+    background-color: #96C7C1;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 45vw;
+}
+
+.form_holder form {
+    padding: 10px 20px;
+}
+

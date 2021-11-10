@@ -1,0 +1,47 @@
+.login_holder {
+    width: 50vw;
+    height: 60vh;
+    margin: 50px auto;
+    /* padding: 50px 0; */
+    border-radius: 6px;
+    background-color: #DED9C4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_holder > * {
+    margin: 10px 0;
+}
+
+.login_holder h1 {
+    margin-bottom: 60px;
+}
+
+.login_holder button {
+    width: 20%;
+    background-color: darkgray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
